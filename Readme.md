@@ -10,3 +10,10 @@ Usage
 1. Download the R file
 2. Source('get.stock.info.R')
 
+```R
+## Default S3 method:
+get.stock.info(stock.code)
+
+## Arguments
+stock.code     a character string of the stock code 
+```
