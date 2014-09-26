@@ -12,7 +12,7 @@ get.stock.info <- function (stock.code) {
   stock.info <- stock.info[[1]][2:(length(stock.info[[1]])-1)]
   
   # convert a character string to a list
-  stock.data <- list()
+  stock.data <- data.frame(V1=0)
   for (i in 1:length(stock.info)) {
     stock.data[[i]] <- stock.info[i]
   }
