@@ -2,7 +2,7 @@
 # author: jincheng9
 
 # input: stock.code: sh000001 (上证指数) sz000001 (平安银行)
-# output: a vector containing the stock information
+# output: a data.frame containing the stock information
 
 get.stock.info <- function (stock.code) {
   
