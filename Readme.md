@@ -16,4 +16,6 @@ get.stock.info(stock.code)
 
 ## Arguments
 stock.code     a character string of the stock code 
+               上证指数：sh000001
+			   平安银行：sz000001
 ```
