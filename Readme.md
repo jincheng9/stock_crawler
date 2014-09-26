@@ -42,5 +42,11 @@ stock.code     a character string of the stock code
 21：26.92，“卖一”报价
 (22, 23), (24, 25), (26,27), (28, 29)分别为“卖二”至“卖四的情况”
 30：”2008-01-11″，日期；
-31：”15:05:32″，时间；			   
+31：”15:05:32″，时间；
+
+## sample code
+stock.data <- get.stock.info('sz000001')
+cat('open price is: ', stock.data$V1, '\n')
+cat('previous close price is: ', stock.data$V2, '\n')			   
+cat('current price is: ', stock.data$V3, '\n')			   
 ```
