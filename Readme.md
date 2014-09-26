@@ -50,3 +50,8 @@ cat('open price is: ', stock.data$V1, '\n')
 cat('previous close price is: ', stock.data$V2, '\n')			   
 cat('current price is: ', stock.data$V3, '\n')			   
 ```
+
+Reference for crawling China's A-share and HK share:
+===
+http://wenku.baidu.com/view/8907c542b307e87101f6962b.html
+http://www.cnblogs.com/yunzi/p/3213022.html
