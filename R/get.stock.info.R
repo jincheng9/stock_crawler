@@ -24,3 +24,5 @@ get.stock.info <- function (stock.code) {
   stock.data
 }
 
+
+
