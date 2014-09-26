@@ -1,4 +1,4 @@
-A very simple R API for retrieving stock data from sina finance
+锘緼 very simple R API for retrieving stock data from sina finance
 
 Prerequisite
 =======
@@ -16,6 +16,6 @@ get.stock.info(stock.code)
 
 ## Arguments
 stock.code     a character string of the stock code 
-               上证指数：sh000001
-			   平安银行：sz000001
+               涓婅瘉鎸囨暟sh000001
+			   骞冲畨閾惰sz000001
 ```
