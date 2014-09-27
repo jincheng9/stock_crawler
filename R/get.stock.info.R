@@ -11,7 +11,7 @@ get.stock.info <- function (stock.code) {
   stock.info <- strsplit(getURL(url), ',')
   stock.info <- stock.info[[1]][2:(length(stock.info[[1]])-1)]
   
-  # convert a character string to a list
+  # convert a character string to a data.frame
   stock.data <- data.frame(V1=0)
   for (i in 1:length(stock.info)) {
     stock.data[[i]] <- stock.info[i]
