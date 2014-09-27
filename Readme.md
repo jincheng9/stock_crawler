@@ -1,4 +1,4 @@
-﻿A very simple R API for retrieving real time China's A-share data from sina finance
+﻿A very simple R API for retrieving real time China's A-share data from sina finance.
 
 Prerequisite
 =======
