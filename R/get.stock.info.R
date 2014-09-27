@@ -1,7 +1,7 @@
-# get the real time stock information from sina finance
+ï»¿# get the real time stock information from sina finance
 # author: jincheng9
 
-# input: stock.code: sh000001 (ÉÏÖ¤Ö¸Êı) sz000001 (Æ½°²ÒøĞĞ)
+# input: stock.code: sh000001 (ä¸Šè¯æŒ‡æ•°) sz000001 (å¹³å®‰é“¶è¡Œ)
 # output: a data.frame containing the stock information
 
 get.stock.info <- function (stock.code) {
