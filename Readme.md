@@ -21,7 +21,7 @@ stock.code     a character string of the stock code
                平安银行sh600000
 			   平安银行sz000001
 ## return value: a data.frame with 32 variables
-1: ”大秦铁路”，股票名字；
+1: "大秦铁路"，股票名字；
 2：27.55，今日开盘价；
 3：27.25，昨日收盘价；
 4：26.91，当前价格；
@@ -44,8 +44,8 @@ stock.code     a character string of the stock code
 21：3100，“卖一”申报3100股，即31手；
 22：26.92，“卖一”报价
 (23, 24), (25, 26), (27,28), (29, 30)分别为“卖二”至“卖四的情况”
-31：”2008-01-11″，日期；
-32：”15:05:32″，时间；
+31："2008-01-11"，日期；
+32："15:05:32"，时间；
 
 ## sample code
 stock.data <- get.stock.info('sh600000')
@@ -72,7 +72,12 @@ index.code     a character string of the index code
 5: 877247, 成交量(手)
 6: 15587495, 成交额(万元)
 
-Reference for crawling China's A-share and HK share:
+# sample code
+index.data <- get.index.info('sz399905')
+cat('index symbol is: ', index.data$V1, '\n')		   
+cat('current price is: ', stock.data$V3, '\n')	
+```
+Reference for crawling China\'s A-share and HK share:
 ===
 http://www.cnblogs.com/yunzi/p/3213022.html
 http://wenku.baidu.com/view/8907c542b307e87101f6962b.html
