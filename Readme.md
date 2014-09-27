@@ -75,7 +75,7 @@ index.code     a character string of the index code
 # sample code
 index.data <- get.index.info('sz399905')
 cat('index symbol is: ', index.data$V1, '\n')		   
-cat('current price is: ', stock.data$V3, '\n')	
+cat('current price is: ', index.data$V3, '\n')	
 ```
 Reference for crawling China\'s A-share and HK share:
 ===
