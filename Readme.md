@@ -17,9 +17,9 @@ API to retrieve stock information: get.stock.info
 get.stock.info(stock.code)
 
 ## Arguments
-stock.code     a character string of the stock code 
-               平安银行sh600000
-			   平安银行sz000001
+stock.code     a string of the stock code 
+               平安银行"sh600000"
+			   平安银行"sz000001"
 ## return value: a data.frame with 32 variables
 1: "大秦铁路"，股票名字；
 2：27.55，今日开盘价；
@@ -61,9 +61,9 @@ API to retrieve index information: get.index.info
 get.index.info(index.code)
 
 ## Arguments
-index.code     a character string of the index code 
-               上证指数sh000001
-			   深圳成指sz399001
+index.code     a string of the index code 
+               上证指数"sh000001"
+			   深圳成指"sz399001"
 ## return value: a data.frame with 6 variables
 1: "上证指数", 指数名称
 2: 5484.677， 当前点数
