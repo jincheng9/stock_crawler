@@ -1,4 +1,4 @@
-# get the real time China's A-share stock information from sina finance
+# get the real time China's A-share stock and index data from sina finance
 # author: jincheng9
 
 # input: stock.code: sh600000 (浦发银行) sz000001 (平安银行)
@@ -55,7 +55,7 @@ get.index.info <- function(index.code) {
   # convert string to float, except for the symbol
   index.data[2:length(index.info)] <- as.numeric(index.data[2:length(index.info)])
   
-  # return the index 
+  # return the index data
   index.data
 }
 
