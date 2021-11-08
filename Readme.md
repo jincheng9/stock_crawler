@@ -18,8 +18,7 @@ get.stock.info(stock.code)
 
 ## Arguments
 stock.code     a string of the stock code 
-               浦发银行"sh600000"
-			   			 平安银行"sz000001"
+               浦发银行"sh600000" 平安银行"sz000001"
 ## return value: a data.frame with 32 variables
 1: "大秦铁路"，股票名字；
 2：27.55，今日开盘价；
