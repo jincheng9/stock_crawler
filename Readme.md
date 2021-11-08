@@ -1,4 +1,4 @@
-﻿A very simple R API for retrieving real time China's A-share stock and index data from sina finance.
+A very simple R API for retrieving real time China's A-share stock and index data from sina finance.
 
 Prerequisite
 =======
@@ -18,8 +18,8 @@ get.stock.info(stock.code)
 
 ## Arguments
 stock.code     a string of the stock code 
-               平安银行"sh600000"
-			   平安银行"sz000001"
+               浦发银行"sh600000"
+			   			 平安银行"sz000001"
 ## return value: a data.frame with 32 variables
 1: "大秦铁路"，股票名字；
 2：27.55，今日开盘价；
